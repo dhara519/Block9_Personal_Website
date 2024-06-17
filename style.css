@@ -1,0 +1,97 @@
+/* Nav Bar with name*/
+h1 {
+  display: inline;
+  font-size: 220%;
+}
+
+nav {
+  box-shadow: 0 0 12px -2px black;
+  background-color: #333333;
+  color: aliceblue;
+  height: 80%;
+  padding: 0.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Nav bar's links to other pages  */
+
+a {
+  font-size: 220%;
+  color: white;
+  text-decoration: none;
+}
+
+#navLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 20% 17px;
+}
+
+/* body body body */
+
+body {
+  box-shadow: 2px 2px 700px -100px black;
+  max-width: 60%;
+  margin: auto;
+}
+
+img {
+  padding: 10% 10% 5% 10%;
+  max-width: 100%;
+}
+
+.container {
+  /* box-shadow: 2px 2px 65px 10px black; */
+  column-count: 2;
+  text-align: center;
+  max-height: fit-content;
+  column-width: auto;
+}
+
+h2 {
+  font-size: 400%;
+  display: center;
+  padding: 25% 0px 0px 0px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.about {
+  break-before: column;
+  margin-top: 0%;
+  padding: 8% 10% 0% 10%;
+}
+
+.ContainSecondCol {
+  margin: 0% 5% 0% 0%;
+}
+
+h3 {
+  margin-top: 1%;
+  font-size: 125%;
+  font-weight: 400;
+  padding-top: 0%;
+}
+
+h4 {
+  font-size: 100%;
+  height: 80%;
+  font-weight: 200;
+  padding: 0.5%;
+}
+
+/* Footer matches Nav Bar CSS */
+footer {
+  box-shadow: -5px -5px 12px -2px black;
+  background-color: #333333;
+  color: aliceblue;
+  padding: 0.5%;
+  bottom: 0;
+  text-align: center;
+}
